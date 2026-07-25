@@ -1,0 +1,44 @@
+# ref: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+default: true
+gitignore: true
+
+# ------------------------------------------------------------
+# Basic rules
+# ------------------------------------------------------------
+
+# MD01: Heading levels should only increment by one level at a time
+MD01: true
+
+# MD013: Line length
+MD013: false
+# MD013:
+#   line_length: 150
+#   heading_line_length: 80
+
+# MD022: Headings should be surrounded by blank lines
+MD022: true
+
+# MD024: Multiple headings with the same content
+MD024:
+  siblings_only: true
+
+# MD026: Emphasis used instead of a heading
+MD026:
+  punctuation: "。，、．"
+
+# MD033: Inline HTML
+MD033: false
+
+# MD034: Bare URL used
+MD034: false
+
+# MD036: Emphasis used instead of a heading
+MD036: false
+
+# MD041: First line in file should be a top level heading
+MD041: false
+# MD041:
+#   level: 1
+
+# MD060:
+MD060: false
