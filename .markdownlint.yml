@@ -9,6 +9,9 @@ gitignore: true
 # MD01: Heading levels should only increment by one level at a time
 MD01: true
 
+# MD10: no hard tabs
+MD010: false
+
 # MD013: Line length
 MD013: false
 # MD013:
